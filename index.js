@@ -2,7 +2,7 @@ const app = document.getElementById("app")
 const arrumar = document.getElementById("arrumar")
 
 function dados2() {
-    return fetch('https://brapi.dev/api/quote/PETR4%2CKLBN11%2CITSA4%2CBRSR6%2CCSNA3%2CTAEE4%2CTASA4?range=1d&interval=1d&fundamental=true&dividends=true').then(resultado => resultado.json()).then(resultado => resultado['results'])
+    return fetch('https://brapi.dev/api/quote/AMER3%2CPETR4%2CKLBN11%2CITSA4%2CBRSR6%2CCSNA3%2CTAEE4%2CTASA4?range=1d&interval=1d&fundamental=true&dividends=true').then(resultado => resultado.json()).then(resultado => resultado['results'])
 }
 
 function htmlcompleto(dados){
