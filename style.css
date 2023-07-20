@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: absolute;
+    background-color: aquamarine;
+}
+
+#arrumar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5rem 0.5rem 0 0.5rem;
+}
+
+#arrumar h1{
+    text-align: center;
+}
+
+#arrumar p{
+    margin-bottom: 0.5rem;
+}
+
+.dividendos{
+    background-color: blueviolet;
+    padding: 0 0.5rem 0.5rem 0.5rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
